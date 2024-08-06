@@ -24,7 +24,7 @@ HEADERS_WITH_AUTH["Authorization"] = "Bearer 1234"
 HEADERS_WITH_AUTH["Cookie"] = "ARRAffinity=?; " "ARRAffinitySameSite=?;" " GCLB=?"
 
 TIMEZONE = pytz.timezone("Asia/Jerusalem")
-IEC_API_BASE_URL = "https://iecapi.iec.co.il//api/"
+IEC_API_BASE_URL = "https://iecapi.iec.co.il/api/"
 IEC_FAULT_PORTAL_API_URL = "https://masa-faultsportalapi.iec.co.il/api/"
 
 GET_ACCOUNTS_URL = IEC_API_BASE_URL + "outages/accounts"
